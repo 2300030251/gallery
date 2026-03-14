@@ -5,8 +5,10 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 
 function App() {
+  const base = (import.meta.env.BASE_URL || "/").replace(/\/$/, "");
+
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={base || undefined}>
       <Routes>
         <Route path="/" element={<Welcome />} />
         <Route path="/gallery" element={<Gallery />} />
