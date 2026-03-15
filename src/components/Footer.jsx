@@ -3,8 +3,8 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-section footer-section-centered">
-          <h4>Lucky's Moments</h4>
-          <p>Made by Frontend Developer.</p>
+          <h4>Sree Rupa Kuntrapaka</h4>
+          <p>Made by praveenilla.</p>
         </div>
       </div>
 
